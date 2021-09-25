@@ -1,0 +1,55 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image:linear-gradient(to right,rgb(219,210,188),rgb(218,172,56) )
+  }
+  
+  #calculator {
+    border: black 1px;
+    width:290px;
+    height:400px;
+    position:absolute;
+    left:450px;
+    bottom:150px;
+
+  }
+  /* #screen-container {
+    padding: 10px; 
+     opacity: 0.4;
+  }
+   */
+  #screen {
+    background: rgb(109,94,60);
+    border: black 2px;
+    color: white;
+    width: 288px;
+    height: 55px;
+    z-index: 1;
+    padding:0px;;
+    margin:0px;
+  }
+  
+  #button-container {
+    border: 1px black solid;
+    padding: 2px;
+  }
+  
+  .buttons span {
+    background:white;
+    border: 1px black solid;
+    cursor: pointer;
+    float: left;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  #big-zero {
+    padding-left:10px;
+    padding-right:10px;
+    width:122px;
+  }
+
+  #clear{
+      background:rgb(105,105,105);
+  }
